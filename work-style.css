@@ -1,0 +1,14 @@
+.work-string{
+  width: 1366px;
+  height: 300px;
+  display: flex;
+}
+.work-block__img{
+  width: 341px;
+  height: 300px;
+}
+
+.work-block__img-chenged{
+  width: 342px;
+  height: 300px;
+}

@@ -1,0 +1,113 @@
+.contact-form{
+  padding-top: 100px;
+  padding-left: 131px;
+}
+.personal-data__text{
+  width: 320px;
+height: 48px;
+background-color: #ffffff;
+font-family: Nunito Sans;
+font-size: 15px;
+font-weight: 400;
+letter-spacing: 0.005em;
+color: #787878;
+padding-left: 20px;
+border: none;
+}
+.personal-data__email{
+width: 291px;
+height: 48px;
+background-color: #ffffff;
+font-family: Nunito Sans;
+font-size: 15px;
+font-weight: 400;
+letter-spacing: 0.01em;
+color: #787878;
+padding-left: 20px;
+margin-left: 30px;
+border: none;
+}
+.block-title__text{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 670px;
+height: 48px;
+background-color: #ffffff;
+font-family: Nunito Sans;
+font-size: 15px;
+font-weight: 400;
+letter-spacing: 0.005em;
+color: #787878;
+padding-left: 20px;
+border: none;
+}
+.contact-form__comments{
+  width: 653px;
+height: 170px;
+background-color: #ffffff;
+padding: 18px 20px 0 20px;
+font-family: Nunito Sans;
+font-size: 15px;
+line-height: 24px;
+font-weight: 400;
+letter-spacing: 0.005em;
+color: #787878;
+border: none;
+}
+.send-information{
+      width: 695px;
+      margin-top: 30px;
+}
+.send-information__submit{
+  padding: 23px 35px 22px 35px;
+  background: #10c9c3;
+  border: none;
+  font-family: Montserrat;
+font-size: 12px;
+font-weight: 500;
+text-transform: uppercase;
+letter-spacing: 0.1em;
+color: #ffffff;
+}
+@media screen and (max-width: 540px) {
+  .contact-form{
+    padding-top: 23.3px;
+    padding-left: 18px;
+  }
+  .personal-data__text{
+    width: 126.7px;
+    height: 26px;
+    font-size: 10.94px;
+    padding-left: 7.92px;
+  }
+  .personal-data__email{
+    width: 115.24px;
+      height: 26px;
+      font-size: 10.94px;
+      padding-left: 7.92px;
+      margin-left: 11.88px;
+  }
+  .block-title__text{
+    margin-top: 11.88px;
+      margin-bottom: 11.88px;
+      width: 265.32px;
+      height: 26px;
+      font-size: 10.94px;
+      padding-left: 7.92px;
+  }
+  .contact-form__comments{
+    width: 258.59px;
+      height: 77.32px;
+      padding: 7.13px 7.92px 0 7.92px;
+      font-size: 10.94px;
+      line-height: 9.504px;
+  }
+  .send-information{
+        width: 275.22px;
+        margin-top: 11.88px;
+  }
+  .send-information__submit{
+    padding: 9.11px 13.86px 8.7px 13.86px;
+    font-size: 8.75px;
+    }
+}

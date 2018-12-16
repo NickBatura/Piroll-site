@@ -1,0 +1,212 @@
+@import url("header.css");
+@import url("bacground.css");
+@import url("footer.css") ;
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
+body{
+  margin: 0 auto;
+  max-width: 1366px;
+  width: 1366px;
+}
+.banner img {
+  width: 1366px;
+  height: 670px;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  opacity: 0.6;
+}
+.banner-text h1{
+  margin-top: 119px;
+  margin-bottom: 38px;
+  font-family: Montserrat;
+  font-size: 38px;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+}
+.banner-text p{
+font-family: Nunito Sans;
+font-size: 18px;
+line-height: 28px;
+font-weight: 400;
+letter-spacing: 0.005em;
+color: #ffffff;
+margin-top: 0;
+}
+.banner-text{
+  text-align: center;
+  margin-top: 119px;
+}
+.banner-background{
+  position: relative;
+  width: 1366px;
+  height: 572px;
+  bottom: 280px;
+  z-index: -2;
+  background: #141414;
+}
+.content{
+position: relative;
+height: 0;
+bottom: 520px;
+}
+.about{
+  display: flex;
+}
+.about-picture__img{
+  width: 683px;
+height: 570px;
+}
+.about-information{
+  width: 683px;
+  height: 570px;
+  background-color: #f5f5f5;
+}
+.about-information__hard{
+  margin-top: 0;
+  padding-top: 139px;
+  margin-bottom: 40px;
+  font-family: Montserrat;
+font-size: 30px;
+font-weight: 500;
+letter-spacing: 0.01em;
+color: #171717;
+padding-left: 86px;
+}
+.about-information__text{
+  margin-top: 0;
+  font-family: Nunito Sans;
+font-size: 16px;
+line-height: 24px;
+font-weight: 400;
+letter-spacing: 0.005em;
+color: #787878;
+padding-left: 86px;
+margin-bottom: 0;
+}
+.about-information__img{
+  padding-left: 86px;
+  width: 223px;
+height: 57px;
+margin-top: 37px;
+}
+.progect{
+  width: 1366px;
+  height: 397px;
+  text-align: center;
+}
+.project__hard{
+  margin-top: 0;
+  padding-top: 103px;
+  margin-bottom: 35px;
+  font-family: Montserrat;
+font-size: 30px;
+font-weight: 500;
+letter-spacing: 0.01em;
+color: #1d1d1d;
+}
+.project__text{
+  margin-top: 0;
+  margin-bottom: 60px;
+  font-family: Nunito Sans;
+font-size: 16px;
+line-height: 24px;
+font-weight: 400;
+letter-spacing: 0.005em;
+color: #787878;
+}
+.progect__talk{
+  text-decoration: none;
+  padding: 22px 52px 22px 52px;
+  background: #10c9c3;
+  font-family: Montserrat;
+font-size: 12px;
+font-weight: 500;
+text-transform: uppercase;
+letter-spacing: 0.1em;
+color: #ffffff;
+}
+.footer{
+  position: relative;
+top: 690px;
+}
+@media screen and (max-width: 540px){
+  body{
+    max-width: 540px;
+    width: 540px;
+  }
+  .banner img {
+    width: 540px;
+    height: 265.32px;
+  }
+  .banner-text h1{
+    margin-top: 47.12px;
+    margin-bottom: 15.05px;
+    font-size: 20px;
+  }
+  .banner-text p{
+    font-size: 12.7px;
+  line-height: 16.6px;
+  }
+  .banner-text{
+    margin-top: 47.12px;
+  }
+  .banner-background{
+    width: 540px;
+    height: 226.51px;
+    bottom: 135.88px;
+  }
+  .content{
+  height: 0;
+  bottom: 205.92px;
+  }
+
+  .about-picture__img{
+    width: 270.47px;
+    height: 265.72px;
+  }
+  .about-information{
+    width: 270.47px;
+    height: 265.72px;
+  }
+  .about-information__hard{
+    padding-top: 30.04px;
+      margin-bottom: 15.84px;
+      font-size: 18.1px;
+      padding-left: 19.1px;
+  }
+  .about-information__text{
+    font-size: 11.34px;
+      line-height: 12.6px;
+      padding-left: 19.1px;
+      margin-bottom: 0;
+  }
+  .about-information__img{
+    padding-left: 19.1px;
+    width: 157.2px;
+    height: 40.2px;
+    margin-top: 14.65px;
+  }
+  .progect{
+    width: 540px;
+    height: 148.21px;
+  }
+  .project__hard{
+    padding-top: 5.79px;
+    margin-bottom: 13.86px;
+    font-size: 15.8px;
+  }
+  .project__text{
+    margin-bottom: 19.76px;
+    font-size: 11.3px;
+    line-height: 12.5px;
+  }
+  .progect__talk{
+    padding: 8.71px 20.59px 8.71px 20.59px;
+font-size: 8.75px;
+  }
+  .footer{
+  top: 300px;
+  }
+}
